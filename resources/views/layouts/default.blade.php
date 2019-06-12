@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
+
 </head>
 <body>
   <nan class="navbar navbar-expand-lg navbar-dark bg-dark">
