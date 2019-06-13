@@ -2,20 +2,21 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-body{
+body {
   font-size: 14px;
   font-weight: normal;
 }
-nav.navbar.navbar-expand-lg{
+
+nav.navbar.navbar-expand-lg {
   margin-bottom: 20px;
 }
 
 
 
-
+/* footer */
 
 footer {
-  marigin-top: 45px;
+  margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
   color: #777;
@@ -37,8 +38,6 @@ footer {
     width: 17px;
     height: 17px;
   }
-
-
 }
 
 
