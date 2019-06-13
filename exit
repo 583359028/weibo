@@ -1,0 +1,77 @@
+[33mcommit 8d5098692b17026e757a876ba6655aacb68e0c04[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: dream <583359028@qq.com>
+Date:   Thu Jun 13 16:48:39 2019 +0000
+
+    nimei
+
+[33mcommit 010677a5628492cf220ee940eb9890b83542958c[m[33m ([m[1;31mheroku/master[m[33m)[m
+Author: dream <583359028@qq.com>
+Date:   Thu Jun 13 16:16:58 2019 +0000
+
+    delete idea/worksapce.xml
+
+[33mcommit c94396bbbc6c6e3f85f3dca94b8e02ab8dd97d80[m[33m ([m[1;32mmodeling-users[m[33m)[m
+Author: dream <583359028@qq.com>
+Date:   Thu Jun 13 16:04:11 2019 +0000
+
+    two
+
+[33mcommit 27f07dceb7127b865a72629b445eafc0c9bb7fed[m
+Author: dream <583359028@qq.com>
+Date:   Thu Jun 13 15:36:16 2019 +0000
+
+    Move user model to models folder
+
+[33mcommit b7e73dfa5553c16fc8ada131305d801212ab8b11[m[33m ([m[1;32mfilling-layout-style[m[33m)[m
+Author: dream <583359028@qq.com>
+Date:   Wed Jun 12 12:47:03 2019 +0000
+
+    用户注册页面
+
+[33mcommit 68613a71659c7ea1123edf7c6800a6a029818d68[m
+Author: dream <583359028@qq.com>
+Date:   Wed Jun 12 12:38:14 2019 +0000
+
+    命名路由
+
+[33mcommit 501db216af3850d54ee7210b5294bfeda3826feb[m
+Author: dream <583359028@qq.com>
+Date:   Wed Jun 12 12:29:34 2019 +0000
+
+    切割头部和尾部
+
+[33mcommit 7cd09493ccef3e559695525307243ba0557a1743[m
+Author: dream <583359028@qq.com>
+Date:   Wed Jun 12 12:15:17 2019 +0000
+
+    静态文件浏览器缓存问题
+
+[33mcommit 6193d579a07a07da3697827d98fe18770f84997a[m
+Author: dream <583359028@qq.com>
+Date:   Wed Jun 12 11:48:24 2019 +0000
+
+    初始化央视
+
+[33mcommit 80768ce4de3b90f44395682af903ecee8a1a1bd1[m[33m ([m[1;32mstatic-pages[m[33m)[m
+Author: dream <583359028@qq.com>
+Date:   Tue Jun 11 11:00:51 2019 +0000
+
+    基础页面
+
+[33mcommit 6f7629421a6b082a904b1b2c1b9ba261ef6bd9b1[m
+Author: dream <583359028@qq.com>
+Date:   Tue Jun 11 10:28:24 2019 +0000
+
+    add .editorfoncif
+
+[33mcommit 19e864301e1532f71f5f1ab7a43df142b6659b2d[m
+Author: dream <583359028@qq.com>
+Date:   Tue Jun 11 09:54:33 2019 +0000
+
+    Procfile for Heroku
+
+[33mcommit 2fc9c139909d9a09f684b09b658d56e986b3b38a[m
+Author: dream <583359028@qq.com>
+Date:   Tue Jun 11 09:04:30 2019 +0000
+
+    initial commit
