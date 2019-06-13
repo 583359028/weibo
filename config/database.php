@@ -1,6 +1,8 @@
 <?php
 
-use Illuminate\Support\Str;
+
+
+$db_config = get_db_config();
 
 return [
 
@@ -65,7 +67,7 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-         //   'url' => env('DATABASE_URL'),
+            'url' => env('DATABASE_URL'),
             'host' => $db_config['host'],
             'port' => env('DB_PORT', '5432'),
             'database' => $db_config['database'],
