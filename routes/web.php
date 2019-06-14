@@ -30,6 +30,10 @@ Route::patch('/users/{user}', 'UsersController@update')->name('users.update');�
 Route::delete('/users/{user}', 'UsersController@destroy')->name('users.destroy'); 删除用户  */
 
 
+Route::get('login','SessionController@create')->name('login');//显示登录页面
+Route::post('login','SessionController@store')->name('login');//创建新会话（登录）
+Route::delete('logout','SessionController@destory')->name('logout');//	销毁会话（退出登录）
+
 /*Route::get('/', function () {
     return view('welcome');
 });*/
