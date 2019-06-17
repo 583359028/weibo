@@ -16,7 +16,7 @@ Route::get('/','StaticPagesController@home')->name('home');
 Route::get('/help','StaticPagesController@help')->name('help');
 Route::get('/about','StaticPagesController@about')->name('about');
 
-route::get('signup','UsersController@create')->name('signup');
+route::get('signup','UsersController@create')->name('signup');//注册页面
 
 route::resource('users','UsersController');
 
@@ -34,6 +34,6 @@ Route::get('login','SessionController@create')->name('login');//显示登录页�
 Route::post('login','SessionController@store')->name('login');//创建新会话（登录）
 Route::delete('logout','SessionController@destroy')->name('logout');//	销毁会话（退出登录）
 
-/*Route::get('/', function () {
+/*Route::get('/', function () { 
     return view('welcome');
 });*/
