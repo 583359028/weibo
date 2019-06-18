@@ -20,7 +20,7 @@ route::get('signup','UsersController@create')->name('signup');//注册页面
 
 route::resource('users','UsersController');
 
-/* 相当于 route::resource('users','UsersController');
+/*  route::resource('users','UsersController');相当于
 Route::get('/users', 'UsersController@index')->name('users.index');显示所有用户的界面
 Route::get('/users/create', 'UsersController@create')->name('users.create'); 创建用户的界面
 Route::get('/users/{user}', 'UsersController@show')->name('users.show');显示用户个人信息的界面
@@ -34,6 +34,6 @@ Route::get('login','SessionController@create')->name('login');//显示登录页�
 Route::post('login','SessionController@store')->name('login');//创建新会话（登录）
 Route::delete('logout','SessionController@destroy')->name('logout');//	销毁会话（退出登录）
 
-/*Route::get('/', function () { 
+/*Route::get('/', function () {
     return view('welcome');
 });*/
